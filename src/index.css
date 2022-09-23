@@ -1,0 +1,17 @@
+h1 {
+	width: 100%;
+	text-align: center;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+.scroll-container {
+	width: 50%;
+	height: 100px;
+	overflow: auto;
+	border: 1px solid lightgray;
+}
